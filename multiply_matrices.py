@@ -23,8 +23,7 @@ def main():
                 [4, 5, 6]])
   b = np.array([[7, 8],
                 [9, 10],
-                [11, 12],
-                [22, 34]])
+                [11, 12]])
   
   c = multiply_matrices(a, b)
   if not c is None:
