@@ -25,7 +25,6 @@ def liner_equation(point):
 
 def main():
   
-
   point_x= np.array([2.4,5.0,1.5,3.8,8.7,3.6,1.2,8.1,2.5,5,1.6,1.6,2.4,3.9,5.4])
   point_y = np.array([2.1,4.7,1.7,3.6,8.7,3.2,1.0,8.0,2.4,6,1.1,1.3,2.4,3.9,4.8])
   
@@ -43,7 +42,7 @@ def main():
 
   plt.title('Linear Regression')
   plt.plot(point_x, point_y, 'ob', label='(xi, yi)')
-  plt.plot(x, y, '-r', label='ax+b')
+  plt.plot(x, y, '-r', label=f'{a:.2f}x+{b:.2f}')
   plt.legend()
   plt.show()
 
